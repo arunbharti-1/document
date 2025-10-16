@@ -1,26 +1,25 @@
-# My Awesome App User Manual (v1.0)
+# Project User Manual
 
 ## 1. Introduction
-My Awesome App helps you manage your daily tasks efficiently...
 
-## 2. Getting Started
+Welcome to the User Manual for our new application! This guide will help you get started with the basic installation and operation of the project.
 
-### 2.1. System Requirements
-- OS: Windows 10 or later
-- Browser: Chrome or Firefox
+## 2. Basic Installation
 
-### 2.2. Installation
-1. Navigate to the official download page.
-2. Click the 'Download' button.
-3. Run the installer and follow the on-screen prompts.
+1.  **Prerequisites:** Ensure you have Node.js (version 16 or higher) and Git installed on your system.
+2.  **Cloning the Repository:** Open your terminal and run the following command:
+    ```bash
+    git clone [https://github.com/your-project-url/project-name.git](https://github.com/your-project-url/project-name.git)
+    cd project-name
+    ```
+3.  **Dependency Installation:** Install the required packages:
+    ```bash
+    npm install
+    ```
 
-## 3. Core Features
+## 3. Getting Started
 
-### 3.1. Creating a New Task
-1. From the **Main Dashboard**, click the **New Task** button.
-2. Enter the task description in the 'Task Detail' field.
-3. Click 'Save'.
+To run the application locally, use the start script:
 
-## 4. Troubleshooting
-**Problem:** The app crashes on startup.
-**Solution:** Ensure your OS meets the System Requirements listed in Section 2.1.
+```bash
+npm start
